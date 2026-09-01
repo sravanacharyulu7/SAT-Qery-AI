@@ -1,0 +1,34 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+.venv
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+
+# Model weights & large files
+models/*.pt
+models/*.pth
+models/*.safetensors
+models/*.bin
+models/checkpoints/
+
+# Satellite imagery / datasets (keep raw data out of git)
+data/*.tif
+data/*.tiff
+data/*.jp2
+data/raw/
+data/processed/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
